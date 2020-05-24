@@ -1,0 +1,81 @@
+.App {
+    text-align: center;
+    min-height: 600px;
+}
+
+.header {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0 10px;
+    background-color: #fff;
+    color: #B335FF;
+    box-shadow: 0 0 6px 2px #B3B3B3;
+}
+
+.header_in {
+    width: 100%;
+    max-width: 800px;
+    display: inline-block;
+}
+
+.header h1 {
+    text-align: left;
+    float: left;
+    display: inline;
+    font-size: 22px;
+    background: linear-gradient(80deg, #FF0000, #FF7B00, #FCFF00, #2CFF00, #00FFFD, #001EFF, #E500FF, #FF0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 14px;
+    letter-spacing: 0.5px;
+}
+
+.blank_div {
+    width: 100%;
+    height: 70px;
+}
+
+.colour_card {
+    width: 94%;
+    padding: 0;
+    max-width: 800px;
+    margin: 20px 0;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px 2px #B3B3B3;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.colour_info {
+    position: relative;
+    float: left;
+    text-align: left;
+    padding: 15px 20px 0 20px;
+    line-height: 15px;
+}
+
+.button_div {
+    overflow: hidden;
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.button_div button {
+    padding: 10px 35px;
+    outline: none;
+    font-size: 17px;
+    color: white;
+    border-radius: 25px;
+    background-color: #00A2E5;
+    border: 2px solid #00A2E5;
+}
+
+.button_div button:active {
+    color: #00A2E5;
+    background-color: white;
+}
